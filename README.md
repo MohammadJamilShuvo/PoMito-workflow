@@ -1,4 +1,4 @@
-# PoMito Workflow
+# PoMito Workflow (Under dev.)
 
 **A reproducible workflow for recovering mitochondrial genomes from pooled low-coverage WGS and building comparative mitogenomic resources for small non-model invertebrates**
 
@@ -535,5 +535,5 @@ Wildlife Ecology and Management
 University of Freiburg  
 Freiburg, Germany  
 
-Email: mohammad.shuvo@wildlife.uni-freiburg.de
+Email: mohammad.shuvo@wildlife.uni-freiburg.de or jamilshuvo94@gmail.com
 ```
