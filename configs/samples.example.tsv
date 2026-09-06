@@ -1,0 +1,2 @@
+sample_id	read1	read2	input_type	focal_taxon	seed_fasta
+sample01	/path/sample01_R1.fastq.gz	/path/sample01_R2.fastq.gz	pooled	Entomobrya nivalis	/path/seed.fasta
