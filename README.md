@@ -2,9 +2,6 @@
 
 **A reproducible, taxon-aware workflow for mitochondrial genome recovery from pooled or individual low-coverage short-read data and automatic comparative mitogenomic analysis**
 
-> **Development status:** v0.2 local-first scaffold.  
-> The scientific concept is stable; several modules still require empirical calibration on the *Entomobrya nivalis* benchmark before manuscript release.
-
 <p align="center">
   <img src="docs/figures/PoMito_workflow.png" alt="PoMito conceptual workflow" width="760">
 </p>
