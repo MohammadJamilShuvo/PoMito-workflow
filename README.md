@@ -1,4 +1,4 @@
-# 🧬 PoMito Workflow
+# PoMito Workflow
 
 **A reproducible, taxon-aware workflow for mitochondrial genome recovery from pooled or individual low-coverage short-read data and automatic comparative mitogenomic analysis**
 
