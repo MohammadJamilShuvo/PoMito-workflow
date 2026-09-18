@@ -34,24 +34,24 @@ It supports pooled or individual WGS, local FASTQ files, ENA run accessions, NCB
 
 ```text
 PoMito-workflow/
-├── README.md                         # the only workflow documentation
+├── README.md                         
 ├── LICENSE
 ├── CITATION.cff
 ├── configs/
-│   ├── pomito_config.sh              # central defaults
-│   ├── pomito_user_config.example.sh # copy for your project
-│   ├── pomito_case_study.sh          # validated E. nivalis example
+│   ├── pomito_config.sh              
+│   ├── pomito_user_config.example.sh 
+│   ├── pomito_case_study.sh          
 │   ├── samples.example.tsv
 │   ├── case_study_samples.tsv
 │   ├── install_pomito_conda_envs.sh
 │   └── setup_mitos_refdata.sh
 ├── scripts/
-│   ├── pomito.sh                     # central local runner
+│   ├── pomito.sh                     
 │   ├── check_installation.sh
 │   ├── lib/common.sh
-│   └── steps/                        # exactly one script per step, 00–13
+│   └── steps/                        
 └── hpc/
-    └── pomito_slurm.sh               # autonomous dependency-chained SLURM runner
+    └── pomito_slurm.sh               
 ```
 
 ---
