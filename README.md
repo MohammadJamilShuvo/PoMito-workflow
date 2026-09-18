@@ -7,6 +7,7 @@ It supports pooled or individual WGS, local FASTQ files, ENA run accessions, NCB
 > **Biological scope.** PoMito is generic across animal datasets. Metazoan mitochondrial expectations (13 PCGs, 2 rRNAs, 22 tRNAs; invertebrate mitochondrial code 5) are defaults, not assumptions that should be used blindly. Change the genetic code, expected annotation profile, size range, and phylogenomic gene set when required by the focal taxon.
 
 ---
+<img width="1086" height="1448" alt="45d88c62-9cbe-400f-8b85-d83d0e3e8f81" src="https://github.com/user-attachments/assets/def2fbb2-4371-4658-bf57-ffe95bbaeb87" />
 
 ## 1. Workflow
 
