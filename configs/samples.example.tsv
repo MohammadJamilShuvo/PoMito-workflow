@@ -1,0 +1,4 @@
+sample_id	source	read1	read2	accession
+sample_local	local	/absolute/path/sample_R1.fastq.gz	/absolute/path/sample_R2.fastq.gz	
+sample_ena	ena			ERR000000
+sample_ncbi	ncbi			SRR000000

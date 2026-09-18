@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "PoMito"
+message: "Please cite the PoMito workflow paper and this software release."
+type: software
+authors:
+  - family-names: "Shuvo"
+    given-names: "Mohammad Jamil"
+version: 1.0.0
+repository-code: "https://github.com/MohammadJamilShuvo/PoMito-workflow"
+license: MIT

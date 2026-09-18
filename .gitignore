@@ -1,0 +1,37 @@
+# PoMito generated working data
+work/
+results/
+logs/
+*.part
+
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignments / indexes
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environments / local configs
+.env
+.venv/
+venv/
+configs/local_*.sh
+configs/my_project*.sh
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
