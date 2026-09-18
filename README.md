@@ -28,8 +28,6 @@ It supports pooled or individual WGS, local FASTQ files, ENA run accessions, NCB
 13 publication/reproducibility package + checksums + all figures
 ```
 
-The repository intentionally keeps **one executable script per workflow step**. Previous helper scripts are merged into their corresponding step scripts so each step is self-contained.
-
 ---
 
 ## 2. Repository structure
