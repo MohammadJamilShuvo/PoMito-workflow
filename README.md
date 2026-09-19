@@ -12,53 +12,7 @@ PoMito supports pooled or individual WGS data, local FASTQ files, ENA run access
 
 ## Workflow overview
 
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/def2fbb2-4371-4658-bf57-ffe95bbaeb87"
-    alt="PoMito workflow overview"
-    width="760"
-  />
-</p>
-
-```text
-00  Input resolution
-    Local FASTQ / ENA / NCBI SRA / built-in case-study manifest
-                     │
-01  Read preprocessing and QC
-    fastp + FastQC + MultiQC
-                     │
-02  Mitochondrial signal detection
-    Seed mapping + paired-read recruitment
-                     │
-03  Dual mitochondrial assembly
-    GetOrganelle + NOVOPlasty
-                     │
-04  Assembly validation
-    Read support + coverage + ambiguity + assembler concordance
-                     │
-05  Annotation
-    MITOS2 + optional ARWEN cross-check
-                     │
-06  Annotation harmonization
-                     │
-07  Annotation QC
-                     │
-08  Public mitochondrial resource
-    NCBI/INSDC retrieval + provenance
-                     │
-09  Curated collection
-    One recovered representative per biological sample
-                     │
-10  Phylogenomics
-    PCG extraction + NT/AA alignment + concatenation
-                     │
-11  Phylogenetic inference
-    Partitioned IQ-TREE analyses
-                     │
-12  Mitogenome traits
-                     │
-13  Final report and reproducibility package
-```
+<img width="1055" height="1491" alt="workflow-final" src="https://github.com/user-attachments/assets/9e281580-07a6-4551-bb2c-3beab90e6f06" />
 
 PoMito keeps **one executable script per analytical step (`00`–`13`)**, one central runner, and one SLURM scheduler.
 
